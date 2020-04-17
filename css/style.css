@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+*{
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body{
+  background-color: #ffff;
+}
+
+.title{
+  letter-spacing: 2px;
+  font-size: 50px;
+  color: #ffff;
+}
+
+.echo1{
+  text-align: center;
+}
+.echo1 a:visited{
+  text-decoration: none;
+  color: #69288B;
+}
+
+.wrapper{
+	position: absolute;
+    top: 29%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0,0.6);
+    max-width: 550px;
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+.wrapper .input {
+    width: 85%;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.searchbtn {
+    background: #aec6cf;
+    width: 10%;
+    border-radius: 5px;
+    position: relative;
+    cursor: pointer;
+}
+
+.searchbtn .fas{
+	  position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+}
+
+.navbar{
+    background: rgba(0, 0, 0,0.6);
+    margin: 20px;
+    height: 75px;
+    border-radius: 10px;
+    display: flex;
+    text-align: center;
+}
+
+.navbar ul{
+  display: flex;
+  align-items: center;
+  list-style: none;
+  float: right;
+  margin-top: 0px;
+}
+
+.navbar h2 a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 1rem;
+  font-size: 1.3rem;
+  margin: 0 0.5rem;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.navbar li a:hover{
+  background-color: #7ED5C1;
+}
+
+
+#footer{
+  padding: 2.5rem;
+  background: rgba(0, 0, 0,0.6);
+  margin-top: 750px;
+}
+
+#footer p{
+  text-align: center;
+  color: #ffff;
+}
+
+.box{
+  position: absolute;
+  top: 16%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 300px;
+  height: 180px;
+  padding: 40px;
+  background: rgba(0, 0, 0,0.6);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px #99badd;
+  border-radius: 10px;
+  margin-top: 100px;
+}
+
+.box .inputbox{
+  position: relative;
+}
+
+.box .inputbox input{
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #ffff;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #ffff;
+  outline: none;
+  background: transparent;
+}
+
+.box .inputbox label{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #ffff;
+  letter-spacing: 2px;
+  pointer-events: none;
+  transition: .5s;
+}
+.box .inputbox input:focus ~ label,
+.box .inputbox input:valid ~ label{
+  top: -18px;
+  left: 0;
+  color: #6093ca;
+  font-size: 12px;
+}
+
+.box input[type="submit"]{
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+  background: #6093ca;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
