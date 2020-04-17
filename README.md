@@ -15,6 +15,6 @@ Installatie
 
 # Screenshots
 
-<img src="img/home_pagina.png">
+<img src="img/homepagina.png">
 <img src="img/watched.png">
 <img src="img/watchlist.png">
