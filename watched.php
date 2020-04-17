@@ -8,7 +8,24 @@
   <body>
     <style media="screen">
     body{
-      background-color: #ffff;
+      background: url("img/theater.jpg");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+    .navbar{
+        background: rgba(0, 0, 0,0.6);
+        margin: 20px;
+        height: 75px;
+        border-radius: 10px;
+        display: flex;
+        text-align: center;
+        border-color: red;
+        border-style: dashed;
+    }
+    h1{
+      color: white;
     }
     img{
       border: 3px solid grey;
@@ -28,12 +45,13 @@
     }
     .bekekenbtn{
       background-color: black;
-      border: none;
+      border-radius: 3px solid;
+      border-color: red;
+      margin-bottom: 16px;
       color: white;
       padding: 15px 32px;
       text-decoration: none;
       display: inline-block;
-      margin-left: 41%;
       justify-content: center;
       font-size: 16px;
       cursor: pointer;

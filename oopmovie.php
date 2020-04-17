@@ -15,7 +15,35 @@
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
     <title>Project oop movie</title>
     <style>
+    body{
+      background: url("img/theater.jpg");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+    .box input[type="submit"]{
+      background: transparent;
+      border: none;
+      outline: none;
+      color: #fff;
+      background: black;
+      padding: 10px 20px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    .navbar{
+        background: rgba(0, 0, 0,0.6);
+        margin: 20px;
+        height: 75px;
+        border-radius: 10px;
+        display: flex;
+        text-align: center;
+        border-color: red;
+        border-style: dashed;
+    }
     .box{
+      color: white;
       position: absolute;
       top: 19%;
       left: 50%;
@@ -25,7 +53,7 @@
       padding: 40px;
       background: rgba(0, 0, 0,0.6);
       box-sizing: border-box;
-      box-shadow: 0 15px 25px #99badd;
+      box-shadow: 0 15px 25px red;
       border-radius: 10px;
       margin-top: 150px;
     }
@@ -34,8 +62,10 @@
       margin-right: auto;
     }
     .bekekenbtn{
-      background-color: grey;
+      background-color: black;
       border-radius: 3px solid;
+      border-color: red;
+      margin-bottom: 16px;
       color: white;
       padding: 15px 32px;
       text-decoration: none;
