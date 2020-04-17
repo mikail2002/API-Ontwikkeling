@@ -11,3 +11,10 @@ Installatie
  6.Import deze in phpmyadmin.
  7. Registreer een account.
  8.Login
+
+
+# Screenshots
+
+<img src="img/home_pagina.png">
+<img src="img/watched.png">
+<img src="img/watchlist.png">
