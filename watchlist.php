@@ -120,6 +120,7 @@ input[type=button], input[type=submit], input[type=reset] {
           </div>
         <div id="container">
           <form class="form1" action="watched.php" method="post">
+            <p class="get1">Voeg film toe aan watched</p>
             <input type="text" name="filmdbid" required placeholder="Filmdbid"><br>
             <input type="submit" name="update" required placeholder="Update">
           </form>
