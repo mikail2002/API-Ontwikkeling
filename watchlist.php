@@ -10,7 +10,7 @@ try {
   $pdo = new PDO($dsn, $dbuser, $dbpassword);
     $sql = 'SELECT imdbID
                FROM film
-              ORDER BY idFilm DESC';
+              WHERE Algezien = 0';
 
     $q = $pdo->query($sql);
     $q->setFetchMode(PDO::FETCH_ASSOC);
