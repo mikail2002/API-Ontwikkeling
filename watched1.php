@@ -8,7 +8,7 @@ $dbname = "oopmovie";
 try {
   $dsn = "mysql:host=" . $dbhost . ";dbname=" . $dbname;
   $pdo = new PDO($dsn, $dbuser, $dbpassword);
-    $sql = 'SELECT imdbID
+    $sql = 'SELECT imdbID,Rating
                FROM film
               WHERE Algezien = 1';
 
@@ -144,11 +144,10 @@ input[type=button], input[type=submit], input[type=reset] {
                              echo '	<h2 class="get1">		' .$movieObj->Released()	.'</h2>	';
                              echo '  <p class="get1">     ' .$movieObj->Genre()  .  '</p> ';
                              echo '  <p class="get1">     ' .$movieObj->imdbID()  .  '</p> ';
-                             foreach ($data1 as $row) {
-                               echo '<tr>
+                             echo '<tr>
                                       <td>'.$row["Rating"].'</td>
                                     </tr>';
-                             }
+
                       echo "</div>";
                     }
                     echo "<br>";
